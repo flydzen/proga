@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66ac1d85-409f-4470-bee9-73ab4093e5fc" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SHQ8uvuMRBpo4kwpMVtUaJNzYd" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WordStatSortedLastIndexTest" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WordStatSortedLastIndex">
+    <configuration name="WordStatIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordStatIndex" />
+      <module name="dz_6" />
+      <option name="PROGRAM_PARAMETERS" value="in.in out.out" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordStatSortedLastIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordStatSortedLastIndex" />
+      <module name="dz_6" />
+      <option name="PROGRAM_PARAMETERS" value="in.in out.out" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WordStatIndex" />
+      <item itemvalue="Application.WordStatSortedLastIndex" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordStatSortedLastIndex" />
+        <item itemvalue="Application.WordStatIndex" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66ac1d85-409f-4470-bee9-73ab4093e5fc" name="Default Changelist" comment="" />
+      <created>1571217886031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571217886031</updated>
+      <workItem from="1571217890786" duration="9868000" />
+      <workItem from="1571238113909" duration="7000" />
+      <workItem from="1571255789196" duration="93000" />
+      <workItem from="1571388546032" duration="2752000" />
+      <workItem from="1571767207179" duration="8127000" />
+      <workItem from="1571925350258" duration="27000" />
+      <workItem from="1571988563035" duration="7085000" />
+      <workItem from="1572533742583" duration="75000" />
+      <workItem from="1572543609732" duration="195000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

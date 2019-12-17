@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a80c1ea-fd2c-4cb6-8df8-7729035c1f90" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ta4HeYH9LOMD0E5Z9el5Vy6wtB" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\flydzen\Desktop\proga\dz_9\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ProgProj\Java\proga\dz_9\src" />
+      <recent name="C:\ProgProj\Java\proga\dz_9\src\md2html" />
+      <recent name="C:\Users\flydzen\Desktop\proga\dz_9\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Md2Html">
+    <configuration name="Md2Html" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="md2html.Md2Html" />
+      <module name="dz_9" />
+      <option name="PROGRAM_PARAMETERS" value="input.txt output.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Md2HtmlTest.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/md2html/Md2HtmlTest.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Md2HtmlTest.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/Md2HtmlTest.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Md2Html" />
+        <item itemvalue="JAR Application.Md2HtmlTest.jar (1)" />
+        <item itemvalue="JAR Application.Md2HtmlTest.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a80c1ea-fd2c-4cb6-8df8-7729035c1f90" name="Default Changelist" comment="" />
+      <created>1573684785627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573684785627</updated>
+      <workItem from="1573684791027" duration="1024000" />
+      <workItem from="1573766787928" duration="12007000" />
+      <workItem from="1573798972205" duration="1715000" />
+      <workItem from="1573801393571" duration="5250000" />
+      <workItem from="1573807522811" duration="4173000" />
+      <workItem from="1574150039683" duration="62000" />
+      <workItem from="1574411840846" duration="2843000" />
+      <workItem from="1574771255700" duration="56000" />
+      <workItem from="1574775066797" duration="272000" />
+      <workItem from="1574791457655" duration="752000" />
+      <workItem from="1574857683825" duration="1280000" />
+      <workItem from="1575623786461" duration="3968000" />
+      <workItem from="1575887543065" duration="348000" />
+      <workItem from="1576012417306" duration="21000" />
+      <workItem from="1576532216174" duration="143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/md2html/Md2Html.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

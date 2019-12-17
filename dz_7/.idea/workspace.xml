@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4fb9fe33-9148-4629-9dcb-c45317904720" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SyRORiD9sj1R9FXnKCGFH8lwD4" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MarkdownTest">
+    <configuration name="HtmlListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="markup.HtmlListTest" />
+      <module name="dz_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="markup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HtmlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="markup.HtmlTest" />
+      <module name="dz_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="markup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarkdownTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="markup.MarkdownTest" />
+      <module name="dz_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="markup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="markup.main" />
+      <module name="dz_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="markup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MarkdownTest" />
+        <item itemvalue="Application.HtmlTest" />
+        <item itemvalue="Application.HtmlListTest" />
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fb9fe33-9148-4629-9dcb-c45317904720" name="Default Changelist" comment="" />
+      <created>1572533816128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572533816128</updated>
+      <workItem from="1572533821096" duration="1342000" />
+      <workItem from="1572543524950" duration="4109000" />
+      <workItem from="1572597259625" duration="2356000" />
+      <workItem from="1572599710518" duration="1027000" />
+      <workItem from="1572972472072" duration="11447000" />
+      <workItem from="1573070251156" duration="3220000" />
+      <workItem from="1573204298498" duration="2293000" />
+      <workItem from="1573207058832" duration="77000" />
+      <workItem from="1574150105549" duration="2250000" />
+      <workItem from="1574185898183" duration="2042000" />
+      <workItem from="1574259791388" duration="1200000" />
+      <workItem from="1574411822211" duration="14000" />
+      <workItem from="1574771316202" duration="3744000" />
+      <workItem from="1574791705194" duration="502000" />
+      <workItem from="1574857826661" duration="898000" />
+      <workItem from="1575017725616" duration="4017000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

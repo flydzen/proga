@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b62a5e28-b2d8-4c23-b949-791ef9e60764" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RcLSIVeuAI3PTfV14Ny8HtJwbQ" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dz_3" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\flydzen\Desktop\proga\dz_4" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WordStatCount">
+    <configuration name="WordStatCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordStatCount" />
+      <module name="dz_4" />
+      <option name="PROGRAM_PARAMETERS" value="in.in out.out" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordStatWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordStatWords" />
+      <module name="dz_4" />
+      <option name="PROGRAM_PARAMETERS" value="in.in out.out" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WordStatCount" />
+      <item itemvalue="Application.WordStatWords" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordStatCount" />
+        <item itemvalue="Application.WordStatWords" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b62a5e28-b2d8-4c23-b949-791ef9e60764" name="Default Changelist" comment="" />
+      <created>1569961435983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569961435983</updated>
+      <workItem from="1569961439961" duration="1108000" />
+      <workItem from="1570032337376" duration="5878000" />
+      <workItem from="1570124529994" duration="848000" />
+      <workItem from="1570537002248" duration="538000" />
+      <workItem from="1570545624399" duration="9198000" />
+      <workItem from="1570556182860" duration="1883000" />
+      <workItem from="1570563296304" duration="289000" />
+      <workItem from="1570563798996" duration="6633000" />
+      <workItem from="1570607033643" duration="10523000" />
+      <workItem from="1570627366579" duration="22000" />
+      <workItem from="1570788511977" duration="802000" />
+      <workItem from="1571218826004" duration="2004000" />
+      <workItem from="1571388765121" duration="2081000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
