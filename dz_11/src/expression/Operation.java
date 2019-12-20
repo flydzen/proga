@@ -2,6 +2,7 @@ package expression;
 
 import java.util.EnumSet;
 import java.util.List;
+import java.util.Objects;
 
 public abstract class Operation implements BinOp {
     private Element arg1;
@@ -62,12 +63,16 @@ public abstract class Operation implements BinOp {
 
     @Override
     public int hashCode() {
-        return toString().hashCode();
+        return Objects.hash(arg1, arg2, type, left, right);
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (obj == null) return false;
-        return this.toString().equals(obj.toString());
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Operation operation = (Operation) o;
+        return arg1.equals(operation.arg1) &&
+                arg2.equals(operation.arg2) &&
+                type == operation.type;
     }
 }

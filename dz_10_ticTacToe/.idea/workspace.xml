@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d1895df-2cdb-4c1c-9887-57a2ab301afd" name="Default Changelist" comment="" />
+    <list default="true" id="5d1895df-2cdb-4c1c-9887-57a2ab301afd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dz_10_ticTacToe/ticTacToe/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dz_10_ticTacToe/ticTacToe/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dz_10_ticTacToe/ticTacToe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dz_10_ticTacToe/ticTacToe/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dz_10_ticTacToe/ticTacToe/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dz_10_ticTacToe/ticTacToe/Settings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ticTacToe/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ticTacToe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ticTacToe/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Divide.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Divide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/DoubleExpressionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/DoubleExpressionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/ExpressionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/ExpressionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Multiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Multiply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Opers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Opers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Subtract.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Subtract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/TripleExpressionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/TripleExpressionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/src/expression/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/src/expression/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/src/expression/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/src/expression/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/src/expression/Divide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/src/expression/Divide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/src/expression/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/src/expression/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/src/expression/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/src/expression/Multiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/src/expression/Opers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/src/expression/Opers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/src/expression/Subtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/src/expression/Subtract.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +40,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UCUG2YzAkjYX8jexD4YBr2WfMR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -85,11 +114,28 @@
       <workItem from="1576012439940" duration="377000" />
       <workItem from="1576227282806" duration="2138000" />
       <workItem from="1576528546873" duration="754000" />
+      <workItem from="1576706016009" duration="318000" />
+      <workItem from="1576828523010" duration="355000" />
+      <workItem from="1576828913271" duration="93000" />
+      <workItem from="1576829603389" duration="1468000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

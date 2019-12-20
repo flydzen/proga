@@ -6,7 +6,7 @@ public class Subtract extends Operation {
     public static EnumSet<Opers> left = EnumSet.noneOf(Opers.class);
     public static EnumSet<Opers> right = EnumSet.of(Opers.ADD, Opers.SUB);
 
-    Subtract(Element arg1, Element arg2) {
+    public Subtract(Element arg1, Element arg2) {
         super(arg1, arg2, Opers.SUB, left, right);
     }
 

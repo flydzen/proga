@@ -1,5 +1,7 @@
 package expression;
 
+import java.util.Objects;
+
 public class Variable implements Value{
     private String name;
     public Variable(String name) {
@@ -18,17 +20,6 @@ public class Variable implements Value{
 
 
     @Override
-    public int hashCode() {
-        return toString().hashCode();
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (obj == null) return false;
-        return hashCode() == obj.hashCode();
-    }
-
-    @Override
     public String toString() {
         return name;
     }
@@ -45,5 +36,18 @@ public class Variable implements Value{
         }else{
             return z;
         }
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Variable variable = (Variable) o;
+        return name.equals(variable.name);
     }
 }

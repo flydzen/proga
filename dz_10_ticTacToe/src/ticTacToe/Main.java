@@ -11,12 +11,20 @@ public class Main {
             System.out.println("Некому играть");
             return;
         } else if (Settings.players.size() == 1) {
-            System.out.println("Player1 выйграл энивэй. Хотя бы не проиграл");
+            System.out.println("Player1 выйграл энивэй. Или хотя бы не проиграл");
+            return;
+        }
+        if (Settings.n < 1 || Settings.m < 1 || Settings.k < 1){
+            System.out.println("Кривая доска");
             return;
         }
         for (Object player : Settings.players) {
-            if (player == null || player.getClass() != Player.class) {
-                System.out.println("Ошибка в игроках");
+            if (!(player instanceof Player)) {
+                if (player == null){
+                    System.out.println("null");
+                }else{
+                    System.out.println("Ошибка в игроках" + player.getClass());
+                }
                 return;
             }
         }

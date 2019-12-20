@@ -1,20 +1,16 @@
 package expression;
 
+import java.util.Objects;
+
 public class Const implements Value{
-    private final double value;
-    private boolean isDouble;
-    Const(double value){
+    private final Number value;
+    public Const(Number value){
         this.value = value;
-        this.isDouble = value%1!=0;
     }
 
     @Override
     public String toString() {
-        if (isDouble){
-            return Double.toString(value);
-        }else{
-            return Integer.toString((int)value);
-        }
+        return value.toString();
     }
     @Override
     public String toMiniString() {
@@ -22,26 +18,28 @@ public class Const implements Value{
     }
     @Override
     public double evaluate(double x) {
-        return this.value;
+        return this.value.doubleValue();
     }
     @Override
     public int evaluate(int x, int y, int z){
-        return (int)this.value;
-    }
-
-    @Override
-    public int hashCode() {
-        return Double.toString(value).hashCode()+(int)value;
+        return value.intValue();
     }
 
     @Override
     public int evaluate(int x){
-        return (int)this.value;
+        return this.value.intValue();
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (obj == null) return false;
-        return hashCode() == obj.hashCode();
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Const aConst = (Const) o;
+        return Objects.equals(value, aConst.value);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(value);
     }
 }

@@ -3,9 +3,9 @@ package expression;
 import java.util.EnumSet;
 
 public class Multiply extends Operation {
-    public static EnumSet<Opers> left = EnumSet.of(Opers.ADD, Opers.SUB);
-    public static EnumSet<Opers> right = EnumSet.of(Opers.ADD, Opers.SUB, Opers.DIV);
-    Multiply(Element arg1, Element arg2) {
+    public static EnumSet<Opers> left = EnumSet.of(Opers.ADD, Opers.SUB, Opers.LEFT, Opers.RIGHT);
+    public static EnumSet<Opers> right = EnumSet.of(Opers.ADD, Opers.SUB, Opers.DIV, Opers.LEFT, Opers.RIGHT);
+    public Multiply(Element arg1, Element arg2) {
         super(arg1, arg2, Opers.MUL, left, right);
     }
 

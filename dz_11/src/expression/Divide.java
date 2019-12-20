@@ -3,9 +3,9 @@ package expression;
 import java.util.EnumSet;
 
 public class Divide extends Operation {
-    public static EnumSet<Opers> left = EnumSet.of(Opers.ADD, Opers.SUB);
-    public static EnumSet<Opers> right = EnumSet.of(Opers.ADD, Opers.SUB, Opers.DIV, Opers.MUL);
-    Divide(Element arg1, Element arg2) {
+    public static EnumSet<Opers> left = EnumSet.of(Opers.ADD, Opers.SUB, Opers.LEFT, Opers.LEFT, Opers.RIGHT);
+    public static EnumSet<Opers> right = EnumSet.of(Opers.ADD, Opers.SUB, Opers.DIV, Opers.MUL, Opers.LEFT, Opers.RIGHT);
+    public Divide(Element arg1, Element arg2) {
         super(arg1, arg2, Opers.DIV, left, right);
     }
     @Override
