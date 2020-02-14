@@ -46,11 +46,6 @@ public class mnkBoard implements Board {
             throw new EOFException("Слишком много игроков");
         }
     }
-
-    public Board newBoard() throws EOFException {
-        return new mnkBoard(n,m,k,players);
-    }
-
     @Override
     public Position getPosition() {
         return new Field(this);

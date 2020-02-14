@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a80c1ea-fd2c-4cb6-8df8-7729035c1f90" name="Default Changelist" comment="" />
+    <list default="true" id="0a80c1ea-fd2c-4cb6-8df8-7729035c1f90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/src/expression/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/src/expression/Square.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +18,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Ta4HeYH9LOMD0E5Z9el5Vy6wtB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dz_7" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -94,11 +101,23 @@
       <workItem from="1575887543065" duration="348000" />
       <workItem from="1576012417306" duration="21000" />
       <workItem from="1576532216174" duration="143000" />
+      <workItem from="1577386008452" duration="187000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

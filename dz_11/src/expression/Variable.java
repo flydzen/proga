@@ -1,5 +1,7 @@
 package expression;
 
+import expression.exceptions.ExpressionException;
+
 import java.util.Objects;
 
 public class Variable implements Value{
@@ -33,8 +35,10 @@ public class Variable implements Value{
             return x;
         } else if (name.equals("y")){
             return y;
-        }else{
+        }else if (name.equals("z")){
             return z;
+        }else {
+            throw new ExpressionException("no variable");
         }
     }
 

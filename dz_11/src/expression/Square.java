@@ -23,6 +23,11 @@ public class Square implements Element {
     }
 
     @Override
+    public String toString() {
+        return "square " + arg.toString();
+    }
+
+    @Override
     public String toMiniString() {
         return "square " + arg.toMiniString();
     }

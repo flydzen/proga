@@ -17,11 +17,12 @@ public class Main {
         System.out.println(el);
         System.out.println(el.toMiniString());
         *///x^2 - 2x + 1
-        Element parsed = Expression.parse("5");
+        Element parsed = new Expression().parse("5+3))");
         System.out.println(parsed.toString());
-        parsed = Expression.parse("2-y");
+        System.out.println(parsed.evaluate(5, 4, 7));
+        parsed = new Expression().parse("2-y");
         System.out.println(parsed.toString());
-        parsed = Expression.parse("1 << 5 + 3");
+        parsed = new Expression().parse("1 << 5 + 3");
         System.out.println(parsed.toMiniString());
     }
 }
