@@ -67,7 +67,7 @@ public class Expression implements Parser {
             mapBinOps.put('*', new Pair(Opers.MUL, 2));
             mapBinOps.put('/', new Pair(Opers.DIV, 2));
             mapBinOps.put('(', new Pair(Opers.OPEN, -100));
-            mapBinOps.put('u', new Pair(Opers.UNO, 100));
+            mapBinOps.put('u', new Pair(Opers.UNO, 3));
             mapBinOps.put('a', new Pair(Opers.ABS, 3));
             mapBinOps.put('s', new Pair(Opers.SQRT, 3));
             mapBinOps.put('l', new Pair(Opers.LOG2, 4));
@@ -236,7 +236,7 @@ public class Expression implements Parser {
                 if (values.size() == 0)
                     throw new ArgumentException("Bare operation");
                 if (values.peek().id < fullAction.id) {
-                    throw new ArgumentException("No second argument" + values.peek().op  + " --- " + fullAction.op);
+                    throw new ArgumentException("No second argument");
                 }
                 Element e2 = values.pop().el;
                 Line pre = opers.peek();

@@ -19,10 +19,12 @@ public class CheckedSubtract extends Operation {
 
     @Override
     public int op(int a, int b) {
-        int res = a-b;
-        if (a < 0 && b > 0 && res >= 0 || a >= 0 && b < 0 && res <= 0){
-            throw new ComputingException("Overflow during subtracting");
+        if (a > 0 && b < 0 && Integer.MAX_VALUE + b < a ||
+                a < 0 && b > 0 && Integer.MIN_VALUE + b > a ||
+                a == 0 && b == Integer.MIN_VALUE) {
+            throw new ComputingException("Overflow during summation");
         }
+
         return a - b;
     }
 }

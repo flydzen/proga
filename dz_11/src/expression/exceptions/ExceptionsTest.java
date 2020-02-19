@@ -5,6 +5,8 @@ import expression.parser.Either;
 import expression.parser.ParserTest;
 import expression.parser.Parser;
 import expression.parser.Expression;
+
+import java.lang.Math;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.LongBinaryOperator;
@@ -25,7 +27,7 @@ public class ExceptionsTest extends ParserTest {
     static {
         addRange(OVERFLOW_VALUES, D, Integer.MIN_VALUE + D);
         addRange(OVERFLOW_VALUES, D, Integer.MIN_VALUE / 2);
-        addRange(OVERFLOW_VALUES, D, (int) -Math.sqrt(Integer.MAX_VALUE));
+        addRange(OVERFLOW_VALUES, D, (int) Math.sqrt(Integer.MAX_VALUE));
         addRange(OVERFLOW_VALUES, D, 0);
         addRange(OVERFLOW_VALUES, D, (int) Math.sqrt(Integer.MAX_VALUE));
         addRange(OVERFLOW_VALUES, D, Integer.MAX_VALUE / 2);
@@ -51,7 +53,7 @@ public class ExceptionsTest extends ParserTest {
             op("Bare a", "a"),
             op("(())", "(())"),
             op("Spaces in numbers", "10 20")
-    );  
+    );
 
     public static Op<String> parseExample(final String hello) {
         return op(hello, hello);

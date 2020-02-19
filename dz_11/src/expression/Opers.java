@@ -14,6 +14,10 @@ public enum Opers {
     SQRT("SQRT"),
     ABS("ABS"),
     UNO("-"),
+    LOG2("log2"),
+    POW2("pow2"),
+    LOG("//"),
+    POW("**"),
     NONE("NONE");
 
     String op;

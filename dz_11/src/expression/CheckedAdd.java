@@ -13,8 +13,10 @@ public class CheckedAdd extends Operation {
 
     @Override
     public int op(int a, int b) {
-        int res = a+b;
-        if (a < 0 && b < 0 && res >= 0 || a > 0 && b > 0 && res <= 0){
+        if (a > 0 && b > 0 && Integer.MAX_VALUE - a < b ||
+                a <= 0 && b < 0 && Integer.MIN_VALUE - a > b
+                //a == 0 && b == Integer.MIN_VALUE) {
+        ){
             throw new ComputingException("Overflow during summation");
         }
         return a+b;

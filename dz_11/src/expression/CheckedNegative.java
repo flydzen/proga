@@ -30,9 +30,13 @@ public class CheckedNegative implements UnOp {
             throw new ComputingException("Overflow on negation");
         return -value;
     }
-
     @Override
     public String toMiniString() {
-        return "-" + arg.toMiniString();
+        return "- " + arg.toMiniString();
+    }
+
+    @Override
+    public String toString() {
+        return "-" + arg;
     }
 }

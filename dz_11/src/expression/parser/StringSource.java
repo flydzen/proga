@@ -1,6 +1,7 @@
 package expression.parser;
 
 import expression.exceptions.ExpressionException;
+import expression.exceptions.ParsingException;
 
 public class StringSource implements ExpressionSource {
     private final String data;
@@ -21,7 +22,10 @@ public class StringSource implements ExpressionSource {
     }
     @Override
     public char prev() {
-        return data.charAt(--pos);
+        if (pos == 0) {
+            throw new ParsingException("Parsing exception");
+        }
+        return data.charAt(pos-1);
     }
 
     @Override

@@ -1,9 +1,6 @@
 package expression;
 
 import expression.exceptions.ComputingException;
-import expression.exceptions.ExpressionException;
-
-import java.math.BigInteger;
 import java.util.EnumSet;
 
 public class CheckedDivide extends Operation {

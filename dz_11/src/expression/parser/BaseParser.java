@@ -15,6 +15,10 @@ public class BaseParser {
         ch = source.hasNext() ? source.next() : '\0';
     }
 
+    protected void prevChar() {
+        ch = source.prev();
+    }
+
     protected boolean test(char expected) {
         if (ch == expected) {
             nextChar();

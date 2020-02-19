@@ -4,25 +4,10 @@ import expression.parser.Expression;
 
 public class Main {
     public static void main(String[] args) {
-        /*
-        Element el = new Add(
-                new Subtract(
-                        new Const(5),
-                        new Subtract(
-                                new Const(2.5),
-                                new Variable("x"))
-                ),
-                new Const(1)
-        );
-        System.out.println(el);
-        System.out.println(el.toMiniString());
-        *///x^2 - 2x + 1
-        Element parsed = new Expression().parse("5+3))");
-        System.out.println(parsed.toString());
-        System.out.println(parsed.evaluate(5, 4, 7));
-        parsed = new Expression().parse("2-y");
-        System.out.println(parsed.toString());
-        parsed = new Expression().parse("1 << 5 + 3");
-        System.out.println(parsed.toMiniString());
+        Element ex = new Expression().parse("z // -z");
+        System.out.println(ex.toString());
+        System.out.println(ex.evaluate(-510870105, 1949412994, 441981722));
     }
 }
+
+

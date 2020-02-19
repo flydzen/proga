@@ -18,11 +18,6 @@ public class CheckedMultiply extends Operation {
     }
     @Override
     public int op(int a, int b) {
-        BigInteger bigInteger = BigInteger.valueOf(a).multiply(BigInteger.valueOf(b));
-        if (bigInteger.compareTo(BigInteger.valueOf(Integer.MAX_VALUE))>0)
-            throw new ComputingException("Overflow on multiplication");
-        if (bigInteger.compareTo(BigInteger.valueOf(Integer.MIN_VALUE))<0)
-            throw new ComputingException("Overflow on multiplication");
-        return a*b;
+        return Math.multiply(a, b);
     }
 }
