@@ -42,6 +42,8 @@ public class BinarySearch {
     // Post:: a[l] < a[z] = a[r] && a[r] <= x
 
 
+
+
     // Pre:: (n = a.length) _ ∀ i, j ∈ (0..n) a[i] >= a[j] && x ∈ (a[0]..a[n]) && ∃ i  a[i] <= x
     public static Integer binSearch(List<Integer> a, int x){
         // z = finding element
