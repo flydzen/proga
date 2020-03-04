@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d1895df-2cdb-4c1c-9887-57a2ab301afd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ticTacToe/mnkBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ticTacToe/mnkBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/out/production/dz_11/expression/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/src/expression/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/src/expression/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_9/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1UCUG2YzAkjYX8jexD4YBr2WfMR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dz_11" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ticTacToe.Main" />
+      <module name="dz_10_ticTacToe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ticTacToe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d1895df-2cdb-4c1c-9887-57a2ab301afd" name="Default Changelist" comment="" />
+      <created>1574859971227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574859971227</updated>
+      <workItem from="1574859974051" duration="628000" />
+      <workItem from="1574860790195" duration="10047000" />
+      <workItem from="1574877091317" duration="7562000" />
+      <workItem from="1574887139877" duration="6389000" />
+      <workItem from="1574937022397" duration="5185000" />
+      <workItem from="1574951102659" duration="9681000" />
+      <workItem from="1575017158153" duration="563000" />
+      <workItem from="1575021748714" duration="410000" />
+      <workItem from="1575043755157" duration="4195000" />
+      <workItem from="1575116445992" duration="16000" />
+      <workItem from="1575120587388" duration="5515000" />
+      <workItem from="1575623551232" duration="1213000" />
+      <workItem from="1575627874305" duration="55000" />
+      <workItem from="1576012439940" duration="377000" />
+      <workItem from="1576227282806" duration="2138000" />
+      <workItem from="1576528546873" duration="754000" />
+      <workItem from="1576706016009" duration="318000" />
+      <workItem from="1576828523010" duration="355000" />
+      <workItem from="1576828913271" duration="93000" />
+      <workItem from="1576829603389" duration="1468000" />
+      <workItem from="1579862250687" duration="5186000" />
+      <workItem from="1580847536089" duration="852000" />
+      <workItem from="1580920435817" duration="64000" />
+      <workItem from="1580934440529" duration="484000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ticTacToe/mnkBoard.java</url>
+          <line>15</line>
+          <properties class="ticTacToe.mnkBoard" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
