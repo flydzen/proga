@@ -7,28 +7,21 @@ public class ArrayQueue extends AbstractQueue{
     private int begin = 0;
     private Object[] elements = new Object[BASE_CAPACITY];
 
-    //-----╔══╦╗─╔╦╗╔╦══╦═══╦══╦══╦╗─╔╦════╗
-    //-----╚╗╔╣╚═╝║║║║╔╗║╔═╗╠╗╔╣╔╗║╚═╝╠═╗╔═╝
-    //-----─║║║╔╗─║║║║╚╝║╚═╝║║║║╚╝║╔╗─║─║║
-    //-----─║║║║╚╗║╚╝║╔╗║╔╗╔╝║║║╔╗║║╚╗║─║║
-    //-----╔╝╚╣║─║╠╗╔╣║║║║║║╔╝╚╣║║║║─║║─║║
-    //-----╚══╩╝─╚╝╚╝╚╝╚╩╝╚╝╚══╩╝╚╩╝─╚╝─╚╝
-    // putted item will be taken after $size dequeues
-    // putted item will be taken right now upon remove or peek
-    // putted in head item will be taken right now upon dequeue
-    // putted in head item will be taken after $size dequeue
-    // etc
-
-    //element != null
-    public void enqueue(Object element) {
-        assert element != null;
+    public void enqueue_(Object element) {
         if (size == capacity()) {
             ensureCapacity(capacity() * 2);
         }
         elements[end()] = element;
-        size++;
     }
-    // size' - size = 1 && after n of dequeue u get $element && pop() return $element
+
+    public void dequeue_() {
+        elements[begin] = null;
+        begin = (begin+1)%capacity();
+    }
+
+    public Object element_() {
+        return elements[begin];
+    }
 
     //capacity > size
     private Object[] copy(int capacity){
@@ -65,55 +58,24 @@ public class ArrayQueue extends AbstractQueue{
     // end == begin && size=capacity || elements[end] = null
     // size == 0 || elements[(end-1 + capacity)%capacity] !=null
 
-    // deque is not empty
-    public Object dequeue() {
-        Object value = element();
-        elements[begin] = null;
-        begin = (begin+1)%capacity();
-        size--;
-        return value;
-    }
-    // returned element[begin] element && $element was putted $old_size dequeues ago
-    // size' - size = -1
 
-    // element != null
-    public void push(Object element){
-        assert element != null;
+    public void push_(Object element){
         if (size == capacity()) {
             ensureCapacity(capacity() * 2);
         }
         begin = (begin -1 + capacity())%capacity();
         elements[begin] = element;
-        size++;
     }
-    //
 
-    // deque is not empty
-    public Object peek(){
-        assert !isEmpty();
+    public Object peek_(){
         return elements[(begin+size-1)%capacity()];
     }
-    // upon dequeue, the $element could be removed after $size times
-    // $element is last in queue
 
-    // dequeueueueueueueueueueueueu is not empty
-    public Object remove() {
-        Object value = peek();
-        size--;
+    public void remove_() {
         elements[(begin+size)%capacity()] = null;
-        return value;
     }
-    // last element in queueueueue == null && size' = size - 1
-    // returned last in queueueue
 
-    // dequeueueueueueueueueueueueu is not empty
-    public Object element() {
-        assert size > 0;
-        return elements[begin];
-    }
-    // returned last in queueueue
 
-    // any
     public ArrayQueue makeCopy() {
         final ArrayQueue newQ = new ArrayQueue();
         newQ.elements = copy(size);
@@ -121,13 +83,10 @@ public class ArrayQueue extends AbstractQueue{
         newQ.begin = 0;
         return newQ;
     }
-    // newQ.size = this, but newQ.elements = [begin..end, null...null) && begin = 0;
 
-    // any
     public void clear(){
         elements = new Object[BASE_CAPACITY];
         begin = 0;
         size = 0;
     }
-    // virginal clean
 }

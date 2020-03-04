@@ -37,8 +37,7 @@ public class LinkedQueue extends AbstractQueue {
     private Node head;
     private Node tail;
 
-    @Override
-    public void enqueue(Object element) {
+    protected void enqueue_(Object element) {
         Node el = new Node(element, tail, null);
         if (tail != null) {
             tail.setPrev(el);
@@ -47,27 +46,41 @@ public class LinkedQueue extends AbstractQueue {
         if (head == null){
             head = el;
         }
-        size++;
     }
 
     @Override
-    public Object dequeue() {
-        assert size > 0;
-        Object el = element();
+    public void dequeue_() {
         head = head.getPrev();
-        size--;
         if (size == 0){
             tail = null;
         }else{
             head.setNext(null);
         }
-        return el;
     }
 
     @Override
-    public Object element() {
-        assert size > 0;
+    public Object element_() {
         return head.value;
+    }
+
+    public void push_(Object element){
+        Node el = new Node(element, null, head);
+        if (head != null) {
+            head.setNext(el);
+        }
+        head = el;
+        if (tail == null){
+            tail = el;
+        }
+    }
+
+    public Object peek_(){
+        return tail.value;
+    }
+
+    public void remove_() {
+        size--;
+        tail.getNext().setPrev(null);
     }
 
     @Override

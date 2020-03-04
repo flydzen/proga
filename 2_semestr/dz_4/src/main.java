@@ -1,9 +1,10 @@
 import queue.ArrayQueue;
 import queue.LinkedQueue;
+import queue.Queue;
 
 public class main {
     public static void main(String[] args){
-        LinkedQueue arr = new LinkedQueue();
+        Queue arr = new ArrayQueue();
         arr.enqueue(3);
         arr.enqueue(3);
         arr.enqueue(new String[]{"a"});
