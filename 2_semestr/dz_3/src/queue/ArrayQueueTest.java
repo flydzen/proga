@@ -126,6 +126,7 @@ public class ArrayQueueTest<T extends ArrayQueueTest.Queue> extends ReflectionTe
 
             final int size = checkAndSize(queue);
             counter.passed();
+
             if (ops++ >= size && random.nextInt(4) == 0) {
                 ops -= size;
 
