@@ -1,5 +1,8 @@
 package queue;
 
+import java.util.function.Function;
+import java.util.function.Predicate;
+
 public interface Queue {
     //-----╔══╦╗─╔╦╗╔╦══╦═══╦══╦══╦╗─╔╦════╗
     //-----╚╗╔╣╚═╝║║║║╔╗║╔═╗╠╗╔╣╔╗║╚═╝╠═╗╔═╝
@@ -49,6 +52,14 @@ public interface Queue {
     public Queue makeCopy();
     // new size = this, new elements = [begin..end..) && new begin = 0;
 
+    // queue is not empty
+    public Queue map(Function<Object, Object> f);
+    // return new queue, where new item = function(old item);
+
+    //
+    public Queue filter(Predicate<Object> p);
+    // return new queue with new items matching the parameter. size' <= size
+
     // any
     public void clear();
     // virginal clean
@@ -57,4 +68,15 @@ public interface Queue {
     public int size();
     // return number of elements in deque
 
+    // reset before first call
+    public Object getNext();
+    // return next element after prev. if reset: return head
+
+    // head exist
+    public void reset();
+    // head will be returned
+
+    //
+    public Queue getQueue();
+    // an empty queue of the current class will be returned
 }

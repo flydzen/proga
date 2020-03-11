@@ -1,7 +1,11 @@
 package queue;
 
 
+import java.util.function.Function;
+import java.util.function.Predicate;
+
 public class LinkedQueue extends AbstractQueue {
+    private static Node cou;
     private class Node{
         private Object value;
         private Node prev;
@@ -104,5 +108,19 @@ public class LinkedQueue extends AbstractQueue {
         head = null;
         tail = null;
         size = 0;
+    }
+
+    public void reset(){
+        cou = head;
+    }
+
+    public Object getNext(){
+        Object data = cou.value;
+        cou = cou.getPrev();
+        return data;
+    }
+
+    public Queue getQueue(){
+        return new LinkedQueue();
     }
 }

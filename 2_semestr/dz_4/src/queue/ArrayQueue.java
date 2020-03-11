@@ -1,10 +1,13 @@
 package queue;
 
 import java.util.Arrays;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 public class ArrayQueue extends AbstractQueue{
     private final int BASE_CAPACITY = 3;
     private int begin = 0;
+    private static int cou = 0;
     private Object[] elements = new Object[BASE_CAPACITY];
 
     public void enqueue_(Object element) {
@@ -57,6 +60,20 @@ public class ArrayQueue extends AbstractQueue{
     }
     // end == begin && size=capacity || elements[end] = null
     // size == 0 || elements[(end-1 + capacity)%capacity] !=null
+
+    public void reset(){
+        cou = begin;
+    }
+
+    public Object getNext(){
+        Object data = elements[cou];
+        cou = (cou+1)%capacity();
+        return data;
+    }
+
+    public Queue getQueue(){
+        return new ArrayQueue();
+    }
 
 
     public void push_(Object element){

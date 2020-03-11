@@ -1,5 +1,8 @@
 package queue;
 
+import java.util.function.Function;
+import java.util.function.Predicate;
+
 public abstract class AbstractQueue implements Queue {
     protected int size;
     protected abstract void enqueue_(Object element);
@@ -57,4 +60,25 @@ public abstract class AbstractQueue implements Queue {
         return size;
     }
     // return number of elements in deque
+
+    public Queue filter(Predicate<Object> p){
+        Queue q = getQueue();
+        reset();
+        for (int i = 0; i < size; i++) {
+            Object data = getNext();
+            if (p.test(data)){
+                q.enqueue(data);
+            }
+        }
+        return q;
+    }
+
+    public Queue map(Function<Object, Object> f){
+        Queue q = getQueue();
+        reset();
+        for (int i = 0; i < size; i++) {
+            q.enqueue(f.apply(getNext()));
+        }
+        return q;
+    }
 }
