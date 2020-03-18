@@ -13,7 +13,7 @@ public class BinarySearch {
     // Pre:: (n = a.length) _ ∀ i, j ∈ (0..n) a[i] >= a[j] && ∃ i  a[i] <= x
     // l > -1            x ∈ (a[l]..a[n])
     // r < n             x ∈ (a[0]..a[r])
-    // l > -1 && r < n   x ∈ (a[l]..a[n])
+    //                   r ∈ (a[l]..a[n])
 
     public static int rBinSearch(List<Integer> a, int x, int l, int r){
         // z = finding element

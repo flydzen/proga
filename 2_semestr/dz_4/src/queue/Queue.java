@@ -53,6 +53,7 @@ public interface Queue {
     // new size = this, new elements = [begin..end..) && new begin = 0;
 
     // queue is not empty
+    //
     public Queue map(Function<Object, Object> f);
     // return new queue, where new item = function(old item);
 

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66ac1d85-409f-4470-bee9-73ab4093e5fc" name="Default Changelist" comment="" />
+    <list default="true" id="66ac1d85-409f-4470-bee9-73ab4093e5fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../dz_11/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_11/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_11/Expression — копия.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dz_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dz_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_semestr/dz_2/src/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2_semestr/dz_2/src/search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_semestr/dz_4/src/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2_semestr/dz_4/src/queue/Queue.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +22,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1SHQ8uvuMRBpo4kwpMVtUaJNzYd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WordStatSortedLastIndexTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -82,10 +93,26 @@
       <workItem from="1571988563035" duration="7085000" />
       <workItem from="1572533742583" duration="75000" />
       <workItem from="1572543609732" duration="195000" />
+      <workItem from="1584269838318" duration="255000" />
+      <workItem from="1584271400504" duration="599000" />
+      <workItem from="1584320868825" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
