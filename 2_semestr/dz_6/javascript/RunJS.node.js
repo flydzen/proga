@@ -19,4 +19,4 @@ var context = {
 };
 context.global = context;
 
-context.include("functionalExpression.js");
+context.include("objectExpression.js");
